@@ -83,7 +83,7 @@ First you need to create a :class:`PySparkProcessor` object
 
 .. code:: python
 
-    from sagemaker.processing import PySparkProcessor, ProcessingInput
+    from sagemaker.spark.processing import PySparkProcessor, ProcessingInput
 
     spark_processor = PySparkProcessor(
         base_job_name="sm-spark",
